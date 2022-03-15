@@ -222,6 +222,12 @@ data entry secition
     gap: 1rem;
 }
 
+.buttons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
 .btn{
     padding: .25rem .5rem;
     border-radius: 5px;
@@ -330,8 +336,10 @@ data entry secition
    max-width: 65vw;
    flex-direction: row;
    flex-wrap: wrap;
-   gap: 2rem;
+   gap: 1.5em;
    justify-content: space-around;
+   padding-left: 0;
+   
 }
 
 label{
@@ -340,6 +348,7 @@ label{
 .input-section-wrapper{
     width: 40%;
     justify-content: space-between;
+    padding-left: 0;
 
 }
 
@@ -348,6 +357,17 @@ label{
     display: block;
     gap: 2rem;
     margin-right: 0;
+
+    width:100%;
+    
+}
+
+.buttons{
+    display: flex;
+    width: 92%;
+    margin: auto auto;
+    gap: 1rem;
+    justify-content: flex-end;
 }
 
 }
