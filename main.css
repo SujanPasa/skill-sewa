@@ -38,6 +38,7 @@ nav{
 body{
     background-color: #fff;
 }
+
 #nav-search{
     padding:2px;
 }
@@ -217,3 +218,4 @@ label{
     outline: none;
     border: none;
 }
+

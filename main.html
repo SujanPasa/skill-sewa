@@ -7,24 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="main.css">
 
+    <title>Skill Sewa</title>
 </head>
 <body>
-    <!-- nav bar start -->
-    <nav class="nav-bar">
-
-        <div class="nav-center flex">
-            <div class="logo"></div>
-            <button class="toggle">
-                <i class="fas fa-align-justify fa-2x"></i>
-            </button>
-        </div>
+    <!-- navigation bar start -->
+    <nav class="flex">        
 
         <div class="nav-links-container flex">
             <div class="search-container flex">
@@ -32,22 +21,22 @@
                 <img src="./assets/searchlogo.png" alt="search icon" id="arrow-logo">
             </div>
             <img src="./assets/email-logo.png" alt="email logo" class="nav-icons-grp ">
-            <img src="./assets/notificaton-logo.png" alt="notification logo" id="notification-logo" class="nav-icons-grp">
-            <img src="./assets/setting-logo.png" alt="setting logo" class="nav-icons-grp" id="setting-logo">  
-             
+            <img src="./assets/notificaton-logo.png" alt="notification logo" class="nav-icons-grp">
+            <img src="./assets/setting-logo.png" alt="setting logo" class="nav-icons-grp">   
             <div class="avtar-container flex">
                 <img src="./assets/avatar.png" alt="avatar logo" class="nav-icons-grp">
-                <img src="./assets/down-arrow.png" alt="down-arrow logo" class="arrow-logo" id="profile-down-arrow">
-            </div> 
+                <img src="./assets/down-arrow.png" alt="down-arrow logo" class="" id="profile-down-arrow">
+            </div>         
         </div>
+
     </nav>
-    <!-- nav bar end -->
+    <!-- navigation bar ends -->
 
-    <!-- main container starts -->
-    <main class="main-container">
-
+    <!-- main section start -->
+    <main class="main-container flex">
+        
         <!-- dashboard section start -->
-        <section class="dashboard-container">
+        <section class="dashboard-content-wrapper">
             <h1 class="dashboard-header">
                 Dashboard
             </h1>
@@ -150,14 +139,15 @@
         </section>
         <!-- dashboard section ends -->
 
-        <!-- data entry section  starts-->
-            <section class="data-entry-section-container">
-                <h1 class="main-heading">
-                    Add new estimation
-                </h1>
-                <div class="input-section-container flex">
 
-                    <div class="input-container flex">
+        <!-- main body starts -->
+        <div class="main-body-section">
+            <h1 class="main-body-header">Add new estimation</h1>
+            
+            <div class="data-entry-section flex">
+
+                <div class="input-wrapper">
+                    <div class="class flex">
                         <div class="input-section-wrapper flex">
                             <label for="name">Add Name</label>
                             <input type="text" class="data-input">
@@ -174,22 +164,19 @@
                             <label for="name">Select Unit</label>
                             <input type="text" class="data-input">
                         </div>
-
-                        <div class="buttons-container flex">
-                            <button class="btn cancel">Cancel</button>
-                            <button class="btn save">Save Details</button>
-                        </div>
+                    </div>
+                    
+                    <div class="button-section flex">
+                        <button class="btn cancel">Cancel</button>
+                        <button class="btn save">Save Details</button>
                     </div>
                 </div>
-            </section>
-        <!-- data entry section  ends-->
+                  
+            </div>
+        </div>
+        <!-- main-body ends -->
+         
     </main>
-    <!-- main container ends -->
-
-
-
-
-    <!-- js links -->
-    <script src="app.js"></script>
+    <!-- main section ends -->
 </body>
 </html>
