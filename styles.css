@@ -334,6 +334,9 @@ data entry secition
    justify-content: space-around;
 }
 
+label{
+    color: #434343;
+}
 .input-section-wrapper{
     width: 40%;
     justify-content: space-between;
