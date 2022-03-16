@@ -253,13 +253,12 @@ for laptop screns
 
 @media screen and (min-width: 1000px){
 
-    body{
-        max-width: fit-content;
-    }
+    
+
     nav{
         display: flex;
         justify-content: space-between;
-        width: 100vw;
+      
         
     }
 
