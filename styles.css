@@ -11,14 +11,15 @@ body{
 }
 
 main{
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
+
 .flex{
     display: flex;
 }
 
 nav{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     
 }
 .nav-center{
@@ -62,6 +63,11 @@ nav{
     transition: all 0.3s;
 }
 
+.fas{
+    background-color: transparent;
+    color: #00904C;
+    padding: 0.25rem , 0.5rem, 0.25rem;
+}
 .rotate{
     transform: rotate(180deg);
 }
@@ -139,14 +145,15 @@ dashboard section
 }
 
 .dasboard-sub-heading{
-    margin-top: 1.55rem;
+    margin-top: 0.5rem;
     gap: 1rem;
     
 }
 
 .dasboard-sub-heading h3{
-    font-weight: 500, medium;
+    font-weight: 400;
     font-size: 1em;
+    font-style: normal;
     line-height: 19.6px;
     color: #4A4343;
 }
@@ -154,14 +161,14 @@ dashboard section
 .bullet-points h6{
     font-weight: 400;
     font-style: normal;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 14.91px;
 
 }
 
 
 .bullet-points{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     gap: 1rem;
     padding-left: 3rem;
 }
@@ -176,7 +183,7 @@ data entry secition
 
 .data-entry-section-container{
     margin-top: 2rem;
-    width: 90%;
+    max-width: 90%;
     margin: auto auto;
 }
 
@@ -192,6 +199,7 @@ data entry secition
 
 .input-container{
     margin-top: 1rem;
+    padding: 1rem;
     flex-direction: column;
     border-radius: 5px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -212,9 +220,10 @@ data entry secition
     line-height:22.38px;
     font-size: 1.5em;
     border-radius: 5px;
+    padding: 0.2rem;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     outline: none;
-    border: none;
+    border: transparent;
 }
 
 .buttons-container{
@@ -242,6 +251,25 @@ data entry secition
     background:#2E3192;
     color: #fff;
 }
+
+
+
+/* 
+===============================
+tablet screens
+===============================   
+*/
+
+
+@media screen and (min-width: 600px){
+
+.input-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+
+}
+
 
 
 
@@ -344,6 +372,7 @@ data entry secition
 label{
     color: #434343;
 }
+
 .input-section-wrapper{
     width: 40%;
     justify-content: space-between;
