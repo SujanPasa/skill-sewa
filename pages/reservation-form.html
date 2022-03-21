@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <!-- char js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <title>Skill Sewa</title>
+
+</head>
+<body>
+    <!-- nav bar start -->
+    <nav class="nav-bar">
+
+        <div class="nav-center flex">
+            <div class="logo"></div>
+            <button class="toggle">
+                <i class="fas fa-align-justify fa-2x"></i>
+            </button>
+        </div>
+
+        <div class="nav-links-container flex">
+            <div class="search-container flex">
+                <input type="text" name="search" id="nav-search" placeholder="Search Here">
+                <img src="../assets/searchlogo.png" alt="search icon" id="arrow-logo">
+            </div>
+            <img src="../assets/email-logo.png" alt="email logo" class="nav-icons-grp ">
+            <img src="../assets/notificaton-logo.png" alt="notification logo" id="notification-logo" class="nav-icons-grp">
+            <img src="../assets/setting-logo.png" alt="setting logo" class="nav-icons-grp" id="setting-logo">  
+             
+            <div class="avtar-container flex">
+                <img src="../assets/avatar.png" alt="avatar logo" class="nav-icons-grp">
+                <img src="../assets/down-arrow.png" alt="down-arrow logo" class="arrow-logo" id="profile-down-arrow">
+            </div> 
+        </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- main container starts -->
+    <main class="main-container">
+        <!-- dashboard section start -->
+        <section class="dashboard-container">
+            <h1 class="dashboard-header">
+                Dashboard
+            </h1>
+
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>Work Management</h3>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Add Types</h6>
+                </div>
+            </div>
+
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>Estimation Manager</h3>
+                </div>
+
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>View Estimation</h6>
+                </div>
+
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Add new estimation</h6>
+                </div>
+            </div>
+
+
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>Renovatoin Management</h3>
+                </div>
+
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>View Report</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Assign Supervisor</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Manage Supervisor</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Assign Contractor</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>View Work</h6>
+                </div>
+
+            </div>
+
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>Inspection Management</h3>
+                </div>
+
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>View all inspection</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Assign Inspector</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Report Preparation</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Assign Contractor</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>View Work</h6>
+                </div>
+
+            </div>
+
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>Lead Management</h3>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Add Client</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Manage Inspection</h6>
+                </div>
+            </div>
+
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>User Roles</h3>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Add Client</h6>
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <h6>Manage Inspector</h6>
+                </div>
+            </div>
+            
+            
+            <div class="dashboard-heading">
+                <div class="dasboard-sub-heading flex">
+                    <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
+                    <h3>Support for help</h3>
+                </div>
+            
+            </div>
+            
+        </section>
+        <!-- dashboard section ends -->
+
+        <!-- data entry section  starts-->
+            <section class="data-entry-section-container">
+ 
+                <div class="input-section-container">
+                    <div class="input-container form-container">
+                      <form action="" id="reservation-form">
+                        <div class="form-headder">
+                            <h1 class="form-heading">Reservation Form</h1>
+                            <div class="underline"></div>
+                        </div>
+
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"  placeholder="Name*" class="reservation-form-input"  required> <br>
+
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email"  placeholder="Email*" class="reservation-form-input"  required> <br>
+
+                        <label for="room-type">Room Type*</label>
+                        <select id="room-type" name="room-type">
+                                <option value="sample1">sample1</option>
+                                <option value="sample2">sample2</option>
+                                <option value="sample3">sample3</option>
+                                <option value="sample4">sample4</option>
+                        </select> <br>
+                        
+
+                        <label for="arrival-date">Arrival Date*</label>
+                        <input type="arrival-date" name="arrival-date" id="arrival-date"  class="reservation-form-input" required> <br>
+
+                        <label for="departure-date">Departure Date*</label>
+                        <input type="departure-date" name="departure-date" id="departure-date"  class="reservation-form-input" required> <br>
+                        
+                        <label for="no-of-guests">Number of Guests*</label> 
+                        <input type="number" name="no-of-guests" id="no-of-guests"  class="reservation-form-input" required>  <br>
+
+                        <label for="free-pickups">Free Pickups</label>
+                        <div class="free-pickups-radio-options">
+                            <input type="radio" name="free-pickup-yes" id="free-pickup-yes">
+                            <label for="free-pickup">Yes</label>
+                            
+                            <input type="radio" name="free-pickup-yes" id="free-pickup-no">
+                            <label for="free-pickup">No</label>    
+                        </div> <br>
+
+                        <label for="flight-number">Flight Number</label>
+                        <input type="text" name="flight-number" id="flight-number" placeholder="Flight Number" class="reservation-form-input" required> <br>
+                        
+                        <label for="special-request">Special Request</label>
+                        <textarea name="special-request" id="special-request" cols="35" rows="5" placeholder="Type Here"></textarea>
+                      </form>
+                   </div>
+                </div>
+            </section>
+        <!-- data entry section  ends-->
+
+    </main>
+    <!-- main container ends -->
+
+    <div class="logout-section">
+        <div class="logout-wrapper">
+            <img src="../assets/logout.png" alt="LogOut">
+             Logout
+    
+        </div>
+    </div>
+
+
+    <!-- js links -->
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -192,6 +192,7 @@ data entry secition
     margin-top: 2rem;
     max-width: 90%;
     margin: auto auto;
+
 }
 
 .main-heading{
@@ -204,6 +205,10 @@ data entry secition
     line-height: 27.83px;
 }
 
+.input-section-container{
+    width: 100%;
+}
+
 .input-container{
     margin-top: 1rem;
     padding: 1rem;
@@ -212,7 +217,7 @@ data entry secition
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     padding-left: 1.5rem;
     padding-bottom: 2rem;
-    max-width: 95%;
+    
 }
 
 .input-section-wrapper{
@@ -284,6 +289,104 @@ canvas{
     width: 50vw;
 }
 
+/* 
+=========================================
+form section styles
+=========================================
+*/
+
+
+
+.form-heading{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    color:#6D6767;
+   
+    
+}
+
+
+.underline{
+    height: 1px;
+    background-color:#6D6767;
+    border: transparent;
+    width: 13.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#reservation-form>label{
+    display: block;
+    line-height: 1em;
+    margin-top: 1.5rem;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+
+}
+
+.free-pickups-radio-options{
+    display: inline-block;
+    max-width: 100%;
+    
+}
+
+.free-pickups-radio-options input, 
+.free-pickups-radio-options label{
+    margin-top: 0.2rem;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+   
+
+}
+
+.reservation-form-input{
+    width: 100%;
+    line-height: 1.75em;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.2rem;
+    color: #4A4343;
+    text-indent: 0.2em;
+    background-color: #e5e5e5;
+    /* outline: transparent; */
+    border: transparent;
+    
+}
+
+#room-type{
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    color: #4A4343;
+}
+
+option{
+    font-size: 1.2em
+}
+
+
+textarea{
+    font-size: 1.2em;
+    font-style: normal;
+    margin-top: 0.2rem;
+    color: #4A4343;
+    text-indent: 0.2em;
+    background-color: #e5e5e5;
+    border: transparent;
+    vertical-align: top;
+    margin-top: 0.2rem;
+    width: 100%;
+}
+
 
 /* 
 ===============================================================
@@ -294,11 +397,27 @@ tablet screens
 
 @media screen and (min-width: 600px){
 
+    .form-container{
+        display: flex;
+        justify-content: center;3.
+    }
+
     .input-container{
         flex-direction: row;
         flex-wrap: wrap;
     }    
 
+    .logout-section{
+        margin-bottom: 1.5rem;
+    }
+
+    textarea, 
+    .reservation-form-input,
+    .reservation-form-input,
+    #room-type
+    {
+        width: 60vw;
+    }
 }
  
 
@@ -335,7 +454,6 @@ for laptop screns
          
     }
     
-   
 
     .main-container{
         display: flex;
@@ -371,9 +489,8 @@ data entry secition
 */
 
 .data-entry-section-container{
-    margin-top: 4rem;
+    margin-top: 2rem;
     max-width: 70vw;
-
     
 }
 
@@ -389,7 +506,7 @@ data entry secition
 
 .input-container{
    min-width: 50vw;
-   max-width: 65vw;
+   
    flex-direction: row;
    flex-wrap: wrap;
    gap: 1.5em;
@@ -407,6 +524,10 @@ label{
     justify-content: space-between;
     padding-left: 0;
 
+}
+
+.chart-container{
+    width: 65vw;
 }
 
 .buttons-container{
@@ -429,8 +550,8 @@ label{
 
 .logout-section{
     position: absolute;
-    right: 5rem;
-    bottom: 1rem;
+    right: 2rem;
+    bottom: 0rem;
 }
 
 .logout-wrapper{
@@ -441,5 +562,56 @@ canvas{
     width: 70vw;
     padding: 1rem;
 }
+
+/* 
+======================================
+form Section
+=======================================
+
+
+*/
+form{
+    padding: 0rem 1.5rem 0rem 5rem;
+}
+
+#reservation-form>label{
+    display: inline-block;
+    line-height: 1em;
+    margin-top: 1rem;
+    font-size: 1em;
+    min-width: 20vw;
+
+}
+
+
+.free-pickups-radio-options input, 
+.free-pickups-radio-options label{ 
+    display: inline;
+    font-size: 1em;
+}
+
+
+
+.reservation-form-input{
+    width: 30vw;
+    font-size: 1em;
+
+}
+
+#room-type{
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    width: 30vw;
+    color: #4A4343;
+    line-height: 1.5em;
+}
+
+
+textarea{
+    width: 30vw;
+    margin-top: 1rem;
+}
+
 
 }
