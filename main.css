@@ -147,6 +147,11 @@ body{
     margin-left: auto;
 }
 
+.input-section-wrapper>label{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22.38px;
+}
 .data-entry-section{
     color:#434343;
     margin-top: 1rem;

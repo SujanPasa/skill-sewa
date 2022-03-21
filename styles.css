@@ -217,6 +217,7 @@ data entry secition
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     padding-left: 1.5rem;
     padding-bottom: 2rem;
+    width: 80vw;
     
 }
 
@@ -229,13 +230,14 @@ data entry secition
 }
 
 .data-input{
-    line-height:22.38px;
-    font-size: 1.5em;
+    line-height:1.5em;
+    font-size: 1em;
     border-radius: 5px;
     padding: 0.2rem;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     outline: none;
     border: transparent;
+    
 }
 
 .buttons-container{
@@ -488,6 +490,16 @@ data entry secition
 ===============================   
 */
 
+.input-section-wrapper>label{
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 22.38px;
+}
+
+.input-section-wrapper>.data-input{
+    margin-top: 1rem;
+}
+
 .data-entry-section-container{
     margin-top: 2rem;
     max-width: 70vw;
@@ -506,13 +518,13 @@ data entry secition
 
 .input-container{
    min-width: 50vw;
-   
+   max-width: 60vw;
    flex-direction: row;
    flex-wrap: wrap;
-   gap: 1.5em;
-   justify-content: space-around;
-   padding-left: 0;
-   
+   justify-content: space-between;
+   padding: 1rem 3rem;
+   row-gap: 1.5rem;
+
 }
 
 label{
@@ -523,7 +535,6 @@ label{
     width: 40%;
     justify-content: space-between;
     padding-left: 0;
-
 }
 
 .chart-container{
@@ -531,18 +542,17 @@ label{
 }
 
 .buttons-container{
-    margin-top: auto;
+    margin-top: -0.5rem;
     display: block;
     gap: 2rem;
     margin-right: 0;
-
     width:100%;
-    
+
 }
 
 .buttons{
     display: flex;
-    width: 92%;
+    width: 100%;
     margin: auto auto;
     gap: 1rem;
     justify-content: flex-end;
