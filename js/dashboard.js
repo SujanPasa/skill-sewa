@@ -21,9 +21,9 @@ const dashboardContent = `
             <div class="dashboard-heading">
                 <div class="dasboard-sub-heading flex">
                     <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
-                    <a href="#" class="dashboard-links">
-                        <h6>Estimation Manager</h6>
-                    </a>
+                    
+                        <h3>Estimation Manager</h3>
+                    
                     
                 </div>
 
