@@ -1,3 +1,5 @@
+
+
 const toggle = document.querySelector(".toggle");
 const navLinksContainer = document.querySelector(".nav-links-container");
 
@@ -15,8 +17,7 @@ toggle.addEventListener("click", function(){
 avtar.addEventListener("click", function(){
     
    
-})
-
+});
 
 
 

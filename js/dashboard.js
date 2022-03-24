@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <title>Skill Sewa</title>
-
-</head>
-<body>
-    <!-- nav bar start -->
- 
-    <!-- nav bar end -->
-
-    <!-- main container starts -->
-    <main class="main-container">
-
-        <!-- dashboard section start -->
-        <section class="dashboard-container">
+const dasboard = document.querySelector(".dashboard-container");
+const dashboardContent = `
             <h1 class="dashboard-header">
                 Dashboard
             </h1>
@@ -37,14 +11,20 @@
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Add Types</h6>
+                    <a href="../pages/add-new-estimation.html" class="dashboard-links">
+                        <h6>Add Types</h6>
+                    </a>
+                    
                 </div>
             </div>
 
             <div class="dashboard-heading">
                 <div class="dasboard-sub-heading flex">
                     <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
-                    <h3>Estimation Manager</h3>
+                    <a href="#" class="dashboard-links">
+                        <h6>Estimation Manager</h6>
+                    </a>
+                    
                 </div>
 
                 <div class="bullet-points flex">
@@ -52,6 +32,7 @@
                     <a href="../pages/view-estimation.html" class="dashboard-links">
                         <h6>View Estimation</h6>
                     </a>
+                   
                 </div>
 
                 <div class="bullet-points flex">
@@ -59,7 +40,7 @@
                     <a href="../pages/add-new-estimation.html" class="dashboard-links">
                         <h6>Add new estimation</h6>
                     </a>
-                    
+                   
                 </div>
             </div>
 
@@ -72,15 +53,24 @@
 
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>View Report</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>View Report</h6>
+                    </a>
+                    
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Assign Supervisor</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Assign Supervisor</h6>
+                    </a>
+                    
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Manage Supervisor</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Manage Supervisor</h6>
+                    </a>
+                    
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
@@ -91,7 +81,10 @@
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>View Work</h6>
+                    <a href="#" class="dashboard-links">
+                         <h6>View Work</h6>
+                    </a>
+                   
                 </div>
 
             </div>
@@ -104,24 +97,37 @@
 
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>View all inspection</h6>
+                    <a href="#" class="dashboard-links">
+                       <h6>View all inspection</h6>
+                    </a>
+                  
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Assign Inspector</h6>
-                </div>
-                <div class="bullet-points flex">
-                    <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Report Preparation</h6>
-                </div>
-                <div class="bullet-points flex">
-                    <img src="../assets/triagle-bullet.png" alt="">
+                    <a href="#" class="dashboard-links">
+                        <h6>Assign Inspector</h6>
+                     </a>
                     
-                    <h6>Assign Contractor</h6>
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>View Work</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Report Preparation</h6>
+                     </a>
+                   
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <a href="#" class="dashboard-links">
+                        <h6>Assign Contractor</h6>
+                     </a>
+                   
+                </div>
+                <div class="bullet-points flex">
+                    <img src="../assets/triagle-bullet.png" alt="">
+                    <a href="#" class="dashboard-links">
+                        <h6>View Work</h6>
+                     </a>
                 </div>
 
             </div>
@@ -133,11 +139,17 @@
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Add Client</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Add Client</h6>
+                     </a>
+                    
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Manage Inspection</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Manage Inspection</h6>
+                     </a>
+                    
                 </div>
             </div>
 
@@ -148,11 +160,17 @@
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Add Client</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Add Client</h6>
+                    </a>
+                    
                 </div>
                 <div class="bullet-points flex">
                     <img src="../assets/triagle-bullet.png" alt="">
-                    <h6>Manage Inspector</h6>
+                    <a href="#" class="dashboard-links">
+                        <h6>Manage Inspector</h6>
+                    </a>
+                    
                 </div>
             </div>
             
@@ -164,13 +182,10 @@
                 </div>
             
             </div>
-            
-        </section>
-        <!-- dashboard section ends -->
+`;
 
+function dashboardLoader(){
+    dasboard.innerHTML = dashboardContent;
+}
 
-
-    <!-- js links -->
-    <script src="../app.js"></script>
-</body>
-</html>
+dashboardLoader();
