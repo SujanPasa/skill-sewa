@@ -7,14 +7,18 @@ const dashboardContainer = document.querySelector(".dashboard-container");
 // toggle function for mobile desing
 
 toggle.addEventListener("click", function(){
-    navLinksContainer.classList.toggle("show-nav-links-container");
     toggle.classList.toggle("rotate");
+    dashboardContainer.classList.toggle("show-dashboard-container");
+    navLinksContainer.classList.toggle("show-nav-links-container");
 });
 
 avtar.addEventListener("click", function(){
     
-    dashboardContainer.classList.toggle("show-dashboard-container");
+   
 })
+
+
+
 
 // ===============================================================================================
 // View Estimation 

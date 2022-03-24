@@ -151,6 +151,12 @@ dashboard section
 
 }
 
+.dashboard-links{
+    text-decoration: none;
+    
+    
+}
+
 .dasboard-sub-heading{
     margin-top: 0.75rem;
     gap: 1rem;
