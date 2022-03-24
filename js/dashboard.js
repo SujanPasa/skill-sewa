@@ -21,10 +21,7 @@ const dashboardContent = `
             <div class="dashboard-heading">
                 <div class="dasboard-sub-heading flex">
                     <img src="../assets/screen-logo.png" alt="" class="dasboard-sub-heading-img">
-                    
                         <h3>Estimation Manager</h3>
-                    
-                    
                 </div>
 
                 <div class="bullet-points flex">
